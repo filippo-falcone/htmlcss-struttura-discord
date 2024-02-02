@@ -55,8 +55,8 @@
     background: #228b22;
 }
 
-nav {
-    width: 718px;
+.hero {
+    min-height: 500px;
 }
 
 .row [class^='col'] {
@@ -66,14 +66,6 @@ nav {
 .col-100 {
     min-height: 896px;
 }
-
-/* ------------
-    GENERAL
------------- */
-
-/* ---------------
-    TYPOGRAPHY
---------------- */
 
 /* ----------------
     GRID LAYOUT
@@ -134,6 +126,7 @@ header>.container {
 }
 
 nav {
+    width: 718px;
     text-align: center;
 }
 
@@ -141,7 +134,6 @@ nav {
     HERO
 --------- */
 .hero {
-    min-height: 500px;
     margin: 16px 0 0;
     padding: 48px;
 }
