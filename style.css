@@ -16,6 +16,7 @@
 
 .debug>nav {
     border-left: 2px dashed #000000;
+    border-right: 2px dashed #000000;
 }
 
 .row.debug :first-child {
@@ -50,12 +51,20 @@
     background: #d3d3d3;
 }
 
+.bg-green {
+    background: #228b22;
+}
+
 nav {
     width: 718px;
 }
 
 .row [class^='col'] {
     min-height: 500px;
+}
+
+.col-100 {
+    min-height: 896px;
 }
 
 /* ------------
@@ -105,6 +114,10 @@ nav {
 
 .col-80 {
     width: 80%;
+}
+
+.col-100 {
+    width: 100%;
 }
 
 /* -----------
