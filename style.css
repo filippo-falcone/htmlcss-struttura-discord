@@ -46,6 +46,10 @@
     background: #ffc0cb;
 }
 
+.bg-grey {
+    background: #d3d3d3;
+}
+
 nav {
     width: 718px;
 }
