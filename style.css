@@ -12,6 +12,7 @@
 ------------ */
 body {
     height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* ---------- 
@@ -21,9 +22,9 @@ body {
     border: 2px dashed #000000;
 }
 
-.debug>nav {
-    border-left: 2px dashed #000000;
-    border-right: 2px dashed #000000;
+nav.debug {
+    border-top: none;
+    border-bottom: none;
 }
 
 .col-70 div {
@@ -80,6 +81,11 @@ body {
 
 .bg-lightsalmon {
     background: #ffb6c1;
+}
+
+header>.container {
+    min-height: 44px;
+    line-height: 42px;
 }
 
 .hero {
@@ -167,7 +173,6 @@ header {
 }
 
 header>.container {
-    padding: 5px;
     display: flex;
     justify-content: space-between;
 }
