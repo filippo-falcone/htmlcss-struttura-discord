@@ -16,6 +16,9 @@
 
 .debug>nav {
     border-left: 2px dashed #000000;
+}
+
+.row.debug :first-child {
     border-right: 2px dashed #000000;
 }
 
@@ -35,8 +38,20 @@
     background: #ee82ee;
 }
 
+.bg-ciano {
+    background: #1e90ff;
+}
+
+.bg-lightpink {
+    background: #ffc0cb;
+}
+
 nav {
     width: 718px;
+}
+
+.row [class^='col'] {
+    min-height: 500px;
 }
 
 /* ------------
@@ -70,6 +85,10 @@ nav {
 
 .col-25 {
     width: 25%;
+}
+
+.col-40 {
+    width: 40%;
 }
 
 .col-50 {
@@ -114,4 +133,12 @@ nav {
     max-width: 906px;
     min-height: 402px;
     margin: auto;
+}
+
+/* ---------
+    MAIN
+--------- */
+section>.container {
+
+    padding: 48px 0;
 }
