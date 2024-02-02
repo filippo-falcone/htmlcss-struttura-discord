@@ -27,6 +27,14 @@
     background: #daa520;
 }
 
+.bg-blue {
+    background: #00008b;
+}
+
+.bg-pink {
+    background: #ee82ee;
+}
+
 nav {
     width: 718px;
 }
@@ -80,7 +88,7 @@ nav {
     HEADER
 ----------- */
 header {
-    padding: 16px;
+    padding: 16px 0 4px;
 }
 
 header>.container {
@@ -91,4 +99,19 @@ header>.container {
 
 nav {
     text-align: center;
+}
+
+/* ---------
+    HERO
+--------- */
+.hero {
+    min-height: 500px;
+    margin: 16px 0 0;
+    padding: 48px;
+}
+
+.box {
+    max-width: 906px;
+    min-height: 402px;
+    margin: auto;
 }
