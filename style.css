@@ -83,9 +83,12 @@ nav.debug {
     background: #ffb6c1;
 }
 
-header>.container {
+header>.row {
     min-height: 44px;
-    line-height: 42px;
+}
+
+.row.bg-yellow.debug .col-20 {
+    min-height: 44px;
 }
 
 .hero {
@@ -172,14 +175,27 @@ header {
     padding: 16px 0 4px;
 }
 
-header>.container {
-    display: flex;
-    justify-content: space-between;
+header .row {
+    line-height: 44px;
 }
 
 nav {
-    width: 718px;
-    text-align: center;
+    flex-grow: 3;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    padding: 0 5px;
+}
+
+header .row :last-child {
+    text-align: end;
 }
 
 /* ---------
