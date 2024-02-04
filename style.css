@@ -15,6 +15,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.bg-grey {
+    background: #d3d3d3;
+}
+
+.bg-black {
+    background: #23272a;
+}
+
 /* ---------- 
     DEBUG 
 -----------*/
@@ -27,63 +35,58 @@ nav.debug {
     border-bottom: none;
 }
 
-.col-70 div {
+.col-70.debug div {
     border: 2px dashed #ffffff;
 }
 
-.bg-lightblue {
+.bg-lightblue.debug {
     background: #add8e6;
+    border: none;
 }
 
-.bg-yellow {
+.bg-yellow.debug {
     background: #daa520;
 }
 
-.bg-blue {
+.bg-blue.debug {
     background: #00008b;
 }
 
-.bg-pink {
+.box.bg-pink.debug {
+    min-height: 402px;
     background: #ee82ee;
 }
 
-.bg-ciano {
+.bg-ciano.debug {
     background: #1e90ff;
 }
 
-.bg-lightpink {
+.bg-lightpink.debug {
     background: #ffc0cb;
 }
 
-.bg-grey {
-    background: #d3d3d3;
-}
-
-.bg-green {
+.bg-green.debug {
     background: #228b22;
 }
 
-.bg-black {
-    background: #23272a;
-}
-
-.bg-salmon {
+.bg-salmon.debug {
     background: #f08080;
 }
 
-.bg-acquamarine {
+.bg-acquamarine.debug {
     background: #20b2aa;
 }
 
-.bg-lightaqm {
+.bg-lightaqm.debug {
     background: #7fffd4;
+    border: none;
 }
 
-.bg-lightsalmon {
+.bg-lightsalmon.debug {
     background: #ffb6c1;
 }
 
-header>.row {
+header>.row.debug {
     min-height: 44px;
 }
 
@@ -91,20 +94,25 @@ header>.row {
     min-height: 44px;
 }
 
-.hero {
+.hero.debug {
     min-height: 500px;
 }
 
-.row [class^='col'] {
+.row.debug [class^='col'] {
     min-height: 500px;
 }
 
-.col-100 {
+main .row.debug {
+    border: none;
+}
+
+.col-100.debug {
     min-height: 896px;
 }
 
-footer .row {
+footer .row.debug {
     min-height: 573px;
+    border: none;
 }
 
 /* ----------------
@@ -208,7 +216,6 @@ header .row :last-child {
 
 .box {
     max-width: 906px;
-    min-height: 402px;
     margin: auto;
 }
 
